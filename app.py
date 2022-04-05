@@ -3,6 +3,7 @@ from dash import Dash, html, dcc
 import layout
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = layout.root_layout
 app.title = 'Agata Lis Portfolio'
